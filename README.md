@@ -14,6 +14,10 @@ Enter IP Address/CIDR: Input the IP address in the format xxx.xxx.xxx.xxx/xx in 
 Calculate: Click on the "Calculate" button to view the results.
 View Results: The calculated network address, broadcast address, usable host range, subnet mask, and IP class will be displayed.
 
+# Sample Output
+![Screenshot 2024-06-08 194317](https://github.com/user-attachments/assets/2204c39f-b2cd-4edd-8bf2-df618fc7dff6)
+![Screenshot 2024-06-08 194414](https://github.com/user-attachments/assets/b2ffce47-a182-4258-8c9c-4b4ab7cd0202)
+
 # Code Overview
 The main components are:
 Tkinter Setup: Creates the main window and sets the title, dimensions, and labels.
@@ -28,7 +32,4 @@ ipclass(ip): Determines the IP class.
 Result Display: Functions to display the results in the Tkinter window.
 Clear Function: Clears previous results when a new calculation is performed.
 
-# Sample Output
-
-![Screenshot 2024-06-08 194414](https://github.com/user-attachments/assets/b2ffce47-a182-4258-8c9c-4b4ab7cd0202)
 
