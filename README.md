@@ -20,12 +20,18 @@ View Results: The calculated network address, broadcast address, usable host ran
 
 # Code Overview
 The main components are:
+
 Tkinter Setup: Creates the main window and sets the title, dimensions, and labels.
+
 Entry Field: A text box for user input.
 Calculation Functions:
+
 calculate(): Handles the main logic for parsing the input and performing calculations.
+
 net_add(ip): Calculates the network address.
+
 broadcast_add(net): Calculates the broadcast address.
+
 host_range(net): Calculates the range of usable IP addresses.
 subnetmask(cidr): Computes the subnet mask.
 ipclass(ip): Determines the IP class.
